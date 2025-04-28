@@ -20,7 +20,7 @@ hi Delimiter       guifg=#ABC9FF"c
 hi DiffAdd                       guibg=#13354A
 hi DiffChange      guifg=#89807D guibg=#4C4745
 hi DiffDelete      guifg=#960050 guibg=#1E0010
-hi DiffText                      guibg=#4C4745 "gui=italic,bold"c ############ testing
+hi DiffText                      guibg=#4C4745 gui=bold"c removed italics (says when typing a command at the bottom)
 
 hi Directory       guifg=#A6E22E               gui=bold
 hi Error           guifg=#E6DB74 guibg=#1E0010
@@ -39,7 +39,7 @@ hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#FFB373"c
 hi SpecialKey      guifg=#42FFC2"c
 
-hi MatchParen      guifg=#A3A3F5 guibg=bg      gui=bold"c porpl
+hi MatchParen      guifg=#A3A3F5 guibg=bg      gui=bold"c [parentheses4parliament](https://pingers4parliament.com/)
 hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#ABC9FF"c
@@ -88,7 +88,7 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
-hi Normal          guifg=#CDCFD2 guibg=#212530"c colours bottom command line text
+hi Normal          guifg=#CDCFD2 guibg=#FF0000"c colours bottom command line text ############ testing, guibg originally 212530
 hi Comment         guifg=#75787D"c
 hi CursorLine                    guibg=#2D3138"c
 hi CursorLineNr    guifg=#73D1DC               gui=none"c interpolation between light green and dark purple
@@ -98,4 +98,4 @@ hi LineNr          guifg=#8B9D93 guibg=#212530"c since it doesn't distinguish be
 hi NonText         guifg=#394354"c
 hi SpecialKey      guifg=#ABC9FF"c
 
-"set background=dark"c ############ testing
+set background=dark
