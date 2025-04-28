@@ -39,7 +39,7 @@ hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#FFB373"c
 hi SpecialKey      guifg=#42FFC2"c
 
-hi MatchParen      guifg=#A3A3F5               gui=bold"c porpl
+hi MatchParen      guifg=#A3A3F5 guibg=bg      gui=bold"c porpl
 hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#ABC9FF"c
@@ -69,9 +69,9 @@ endif
 hi Statement       guifg=#F92672               gui=bold
 hi StatusLine      guifg=#455354 guibg=fg
 hi StatusLineNC    guifg=#808080 guibg=#080808
-hi StorageClass    guifg=#81FBC6               gui=italic
+hi StorageClass    guifg=#81FBC6               "gui=italic" ############
 hi Structure       guifg=#66D9EF
-hi Tag             guifg=#F92672               "gui=italic" ############
+hi Tag             guifg=#F92672               gui=italic
 hi Title           guifg=#EF5939
 hi Todo            guifg=#cDCFD2 guibg=bg      gui=bold"c ############ testing, originally FFFFFF
 
