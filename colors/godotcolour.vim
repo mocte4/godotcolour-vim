@@ -59,12 +59,12 @@ hi Search          guifg=#000000 guibg=#FFE792
 hi SignColumn      guifg=#A6E22E guibg=#232526
 hi SpecialChar     guifg=#F92672               gui=bold
 hi SpecialComment  guifg=#8096AB               gui=bold"c
-hi Special         guifg=#CDCFD2 guibg=bg"c ############ KEEP AN EYE ON
+hi Special         guifg=#A3A3F5 guibg=bg"c ############ testing, previously CDCFD2
 if has("spell")
     hi SpellBad    guisp=#FF0000 gui=undercurl
     hi SpellCap    guisp=#7070F0 gui=undercurl
     hi SpellLocal  guisp=#70F0F0 gui=undercurl
-    hi SpellRare   guisp=#CDCFD2 gui=undercurl
+    hi SpellRare   guisp=#CDCFD2 gui=undercurl ############ KEEP AN EYE ON
 endif
 hi Statement       guifg=#F92672               gui=bold
 hi StatusLine      guifg=#455354 guibg=fg
@@ -88,7 +88,7 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
-hi Normal          guifg=#A3A3F5 guibg=#1D2229"c ########## TESTING, PREVIOUSLY CDCFD2 with bg 212530
+hi Normal          guifg=#CDCFD2 guibg=#212530"c colours normal mode bar
 hi Comment         guifg=#75787D"c
 hi CursorLine                    guibg=#2D3138"c
 hi CursorLineNr    guifg=#BCE0FF               gui=none"c why not
