@@ -18,7 +18,6 @@ Put file in `~/.vim/colors`
 ### Package Manager
 Use your preferred package manager, for example [vim-plug](https://github.com/junegunn/vim-plug):
 ```Plug 'mocte4/godotcolour-vim'```
-(I use plug for all my colour schemes, it's just easier)
 
 ## Use
 `:colorscheme godotcolour`
