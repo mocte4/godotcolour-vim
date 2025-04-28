@@ -39,7 +39,7 @@ hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#FFB373"c
 hi SpecialKey      guifg=#42FFC2"c
 
-hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold"c ############ CHANGE THIS IT'S CURRENTLY ORANGE
+hi MatchParen      guifg=#000000 guibg=#FF8CCC gui=bold"c pinkkkk
 hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#ABC9FF"c
@@ -59,7 +59,7 @@ hi Search          guifg=#000000 guibg=#FFE792
 hi SignColumn      guifg=#A6E22E guibg=#232526
 hi SpecialChar     guifg=#F92672               gui=bold
 hi SpecialComment  guifg=#8096AB               gui=bold"c
-hi Special         guifg=#A3A3F5 guibg=bg"c ############ testing, previously CDCFD2
+hi Special         guifg=#66E6FF"c LIGHT BLUE RETURNS because yes and also the alternative was an interpolation between light green and dark purple
 if has("spell")
     hi SpellBad    guisp=#FF0000 gui=undercurl
     hi SpellCap    guisp=#7070F0 gui=undercurl
