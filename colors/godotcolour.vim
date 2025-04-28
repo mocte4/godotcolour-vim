@@ -39,7 +39,7 @@ hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#FFB373"c
 hi SpecialKey      guifg=#42FFC2"c
 
-hi MatchParen      guifg=#E8EAF2 guibg=#4f5258 gui=bold"c neovim default ftw
+hi MatchParen      guifg=#A3A3F5               gui=bold"c porpl
 hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#ABC9FF"c
