@@ -29,13 +29,13 @@ hi Exception       guifg=#F92672               gui=bold
 hi Float           guifg=#A1FFE0"c
 hi FoldColumn      guifg=#ABC9FF guibg=#000000"c
 hi Folded          guifg=#ABC9FF guibg=#000000"c
-hi Function        guifg=#57B3FF"
+hi Function        guifg=#57B3FF"c you're going to be using functions a lot more than declaring them so light blue takes the L
 " hi Identifier      guifg=#81FBC6
-hi Identifier      guifg=#6DB2F9
+hi Identifier      guifg=#BCE0FF"c
 hi Ignore          guifg=#808080 guibg=bg
 hi IncSearch       guifg=#C4BE89 guibg=#000000
 
-hi Keyword         guifg=#FF8CCC               gui=bold"c
+hi Keyword         guifg=#FF7EA9               gui=bold"c Vimscript doesn't appear to distinguish between flow control keywords and regular ones like Godot does so I went literally straight down the middle
 hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#FFB373"c
 hi SpecialKey      guifg=#42FFC2"c
@@ -65,7 +65,7 @@ if has("spell")
     hi SpellBad    guisp=#FF0000 gui=undercurl
     hi SpellCap    guisp=#7070F0 gui=undercurl
     hi SpellLocal  guisp=#70F0F0 gui=undercurl
-    hi SpellRare   guisp=#FFFFFF gui=undercurl
+    hi SpellRare   guisp=#CDCFD2 gui=undercurl
 endif
 hi Statement       guifg=#F92672               gui=bold
 hi StatusLine      guifg=#455354 guibg=fg
