@@ -30,9 +30,8 @@ hi Float           guifg=#A1FFE0"c
 hi FoldColumn      guifg=#ABC9FF guibg=#000000"c
 hi Folded          guifg=#ABC9FF guibg=#000000"c
 hi Function        guifg=#57B3FF"c you're going to be using functions a lot more than declaring them so light blue takes the L
-" hi Identifier      guifg=#81FBC6
 hi Identifier      guifg=#BCE0FF"c
-hi Ignore          guifg=#E6DB74 guibg=bg"c ############ CHECK ON THIS (currently yellow)
+hi Ignore          guifg=#808080 guibg=bg"c
 hi IncSearch       guifg=#C4BE89 guibg=#000000
 
 hi Keyword         guifg=#FF7085               gui=bold"c Vimscript doesn't appear to distinguish between flow control keywords and regular ones like Godot does so no pink :(
@@ -40,7 +39,7 @@ hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#FFB373"c
 hi SpecialKey      guifg=#42FFC2"c
 
-hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold
+hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold ############ CHANGE THIS IT'S CURRENTLY ORANGE
 hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#ABC9FF"c
@@ -60,7 +59,7 @@ hi Search          guifg=#000000 guibg=#FFE792
 hi SignColumn      guifg=#A6E22E guibg=#232526
 hi SpecialChar     guifg=#F92672               gui=bold
 hi SpecialComment  guifg=#8096AB               gui=bold"c
-hi Special         guifg=#CDCFD2 guibg=bg"c
+hi Special         guifg=#CDCFD2 guibg=bg"c ############ KEEP AN EYE ON
 if has("spell")
     hi SpellBad    guisp=#FF0000 gui=undercurl
     hi SpellCap    guisp=#7070F0 gui=undercurl
@@ -89,7 +88,7 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
-hi Normal          guifg=#CDCFD2 guibg=#212530"c
+hi Normal          guifg=#A3A3F5 guibg=#1D2229"c ########## TESTING, PREVIOUSLY CDCFD2 with bg 212530
 hi Comment         guifg=#75787D"c
 hi CursorLine                    guibg=#2D3138"c
 hi CursorLineNr    guifg=#BCE0FF               gui=none"c why not
