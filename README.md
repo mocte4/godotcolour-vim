@@ -1,5 +1,6 @@
 # godotcolour-vim
 Theme using the same colours as the GDScript editor in Godot Engine.
+contains some leftover mappings from https://github.com/tomasr/molokai
 
 **Trying to perfectly replicate highlighting.** Any assistance with this is welcome. 
 
