@@ -30,7 +30,7 @@ vim.cmd 'colorscheme godotcolour'
 (or whatever its vimscript equivalent is) in your init file.
 To be even fancier, you could have it check if there's a godot project file in the current directory and switch to it if there is (example in lua):
 ```
-local godotprojectfile = vim.fs.root(0, '/project.godot') --originally: local projectfile = vim.fn.getcwd() .. '/project.godot'
+local godotprojectfile = vim.fs.root(0, '/project.godot')
 if godotprojectfile then
   vim.cmd 'colorscheme godotcolour'
 end
