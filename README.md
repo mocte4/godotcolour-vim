@@ -1,6 +1,6 @@
 # godotcolour-vim
 Theme using the same colours as the GDScript editor in Godot Engine.
-contains some leftover mappings from https://github.com/tomasr/molokai
+Contains some leftover mappings from https://github.com/tomasr/molokai
 
 **Trying to perfectly replicate highlighting.** Any assistance with this is welcome. 
 
@@ -38,7 +38,7 @@ end
 
 ## TL;DR (and you use Neovim)
 1. Install vim-plug
-2. Put this at the bottom of your init.lua:
+2. Put this at the end of your init.lua:
 ```
 local vim = vim
 vim.call 'plug#begin'
