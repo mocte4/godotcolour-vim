@@ -91,7 +91,7 @@ hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 hi Normal          guifg=#CDCFD2 guibg=#212530"c colours bottom command line text
 hi Comment         guifg=#75787D"c
 hi CursorLine                    guibg=#2D3138"c
-hi CursorLineNr    guifg=#BCE0FF               gui=none"c why not
+hi CursorLineNr    guifg=#73D1DC               gui=none"c why not
 hi CursorColumn                  guibg=#293739
 hi ColorColumn                   guibg=#212530
 hi LineNr          guifg=#8B9D93 guibg=#212530"c since it doesn't distinguish between "safe" (statically typed) and unsafe lines I put the midpoint between those two colours
