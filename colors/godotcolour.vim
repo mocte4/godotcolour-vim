@@ -16,7 +16,7 @@ hi Cursor          guifg=#000000 guibg=#F8F8F0
 hi iCursor         guifg=#000000 guibg=#F8F8F0
 hi Debug           guifg=#BCA3A3               gui=bold
 hi Define          guifg=#D1FDEE
-hi Delimiter       guifg=#8F8F8F
+hi Delimiter       guifg=#ABC9FF"c
 hi DiffAdd                       guibg=#13354A
 hi DiffChange      guifg=#89807D guibg=#4C4745
 hi DiffDelete      guifg=#960050 guibg=#1E0010
@@ -32,10 +32,10 @@ hi Folded          guifg=#ABC9FF guibg=#000000"c
 hi Function        guifg=#57B3FF"c you're going to be using functions a lot more than declaring them so light blue takes the L
 " hi Identifier      guifg=#81FBC6
 hi Identifier      guifg=#BCE0FF"c
-hi Ignore          guifg=#808080 guibg=bg
+hi Ignore          guifg=#a3a3f5 guibg=bg"c
 hi IncSearch       guifg=#C4BE89 guibg=#000000
 
-hi Keyword         guifg=#FF7EA9               gui=bold"c Vimscript doesn't appear to distinguish between flow control keywords and regular ones like Godot does so I went literally straight down the middle
+hi Keyword         guifg=#FF7797               gui=bold"c Vimscript doesn't appear to distinguish between flow control keywords and regular ones like Godot does so I went in between
 hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#FFB373"c
 hi SpecialKey      guifg=#42FFC2"c
