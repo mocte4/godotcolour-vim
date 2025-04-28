@@ -15,7 +15,7 @@ Put file in `~/.config/nvim/colors`
 Put file in `~/.vim/colors`
 
 ### Package Manager
-Use your preferred package manager, for example [vim-plug](https://github.com/junegunn/vim-plug):
+Use your preferred plugin manager, [vim-plug](https://github.com/junegunn/vim-plug) for example:
 ```Plug 'mocte4/godotcolour-vim'```
 
 ## Use
