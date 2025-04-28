@@ -32,7 +32,7 @@ hi Folded          guifg=#ABC9FF guibg=#000000"c
 hi Function        guifg=#57B3FF"c you're going to be using functions a lot more than declaring them so light blue takes the L
 " hi Identifier      guifg=#81FBC6
 hi Identifier      guifg=#BCE0FF"c
-hi Ignore          guifg=#808080 guibg=bg"c
+hi Ignore          guifg=#E6DB74 guibg=bg"c ############ CHECK ON THIS (currently yellow)
 hi IncSearch       guifg=#C4BE89 guibg=#000000
 
 hi Keyword         guifg=#FF7085               gui=bold"c Vimscript doesn't appear to distinguish between flow control keywords and regular ones like Godot does so no pink :(
@@ -91,8 +91,8 @@ hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
 hi Normal          guifg=#CDCFD2 guibg=#212530"c
 hi Comment         guifg=#75787D"c
-hi CursorLine                    guibg=#293739
-hi CursorLineNr    guifg=#FD971F               gui=none
+hi CursorLine                    guibg=#2D3138"c
+hi CursorLineNr    guifg=#BCE0FF               gui=none"c why not
 hi CursorColumn                  guibg=#293739
 hi ColorColumn                   guibg=#212530
 hi LineNr          guifg=#8B9D93 guibg=#212530"c since it doesn't distinguish between "safe" (statically typed) and unsafe lines I put the midpoint between those two colours
