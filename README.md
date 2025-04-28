@@ -1,15 +1,12 @@
-# godotcolor-vim
-Theme inspired by GDScript editor in Godot Engine.
+# godotcolour-vim
+Theme using the same colours as the GDScript editor in Godot Engine.
 
-**Highlighting is not perfectly replicated. I just made it for my own use.** 
-
-Theme file has been changed on top of the one from this repository:  
-https://github.com/tomasr/molokai
+**Trying to perfectly replicate highlighting. Any assistance with this is welcome.** 
+Designed to work with blink.cmp's interpretation of GDScript.
 
 ## Screenshots
 
-### Python
-<img width="400px" src="https://user-images.githubusercontent.com/28411337/184508285-7daa056e-b8a8-4dd7-a3ba-54b05eca4fbb.png" />
+(working on it)
 
 ## Install
 
@@ -19,6 +16,9 @@ Put file in `~/.config/nvim/colors`
 ### Vim
 Put file in `~/.vim/colors`
 
-## Use
+### Package Manager
+Use a package manager like [vim-plug](https://github.com/junegunn/vim-plug):
+`Plug 'mocte4/godotcolour-vim'`
 
-`:colorscheme godotcolor`
+## Use
+`:colorscheme godotcolour`
