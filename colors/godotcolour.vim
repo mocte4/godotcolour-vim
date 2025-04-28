@@ -88,7 +88,7 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
-hi Normal          guifg=#CDCFD2 guibg=#FF0000"c colours bottom command line text ############ testing, guibg originally 212530
+hi Normal          guifg=#CDCFD2 guibg=#1D2229"c colours most of the window
 hi Comment         guifg=#75787D"c
 hi CursorLine                    guibg=#2D3138"c
 hi CursorLineNr    guifg=#73D1DC               gui=none"c interpolation between light green and dark purple
