@@ -4,9 +4,7 @@ Contains some leftover mappings from https://github.com/tomasr/molokai
 
 **Trying to perfectly replicate highlighting.** Any assistance with this is welcome. 
 
-## Screenshots
-
-(working on it)
+[![look-at-my-door-script-it-s-so-clean.png](https://i.postimg.cc/9FpDwB4w/look-at-my-door-script-it-s-so-clean.png)](https://postimg.cc/mtPL0CyT)
 
 ## Install
 
