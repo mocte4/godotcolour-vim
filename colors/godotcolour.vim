@@ -20,7 +20,7 @@ hi Delimiter       guifg=#ABC9FF"c
 hi DiffAdd                       guibg=#13354A
 hi DiffChange      guifg=#89807D guibg=#4C4745
 hi DiffDelete      guifg=#960050 guibg=#1E0010
-hi DiffText                      guibg=#4C4745 gui=italic,bold
+hi DiffText                      guibg=#4C4745 "gui=italic,bold"c ############ testing
 
 hi Directory       guifg=#A6E22E               gui=bold
 hi Error           guifg=#E6DB74 guibg=#1E0010
@@ -69,11 +69,11 @@ endif
 hi Statement       guifg=#F92672               gui=bold
 hi StatusLine      guifg=#455354 guibg=fg
 hi StatusLineNC    guifg=#808080 guibg=#080808
-hi StorageClass    guifg=#81FBC6               "gui=italic" ############
+hi StorageClass    guifg=#81FBC6               gui=italic
 hi Structure       guifg=#66D9EF
 hi Tag             guifg=#F92672               gui=italic
 hi Title           guifg=#EF5939
-hi Todo            guifg=#cDCFD2 guibg=bg      gui=bold"c ############ testing, originally FFFFFF
+hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#8FFFDB"c
 hi Type            guifg=#8FFFDB               gui=none"c
@@ -98,4 +98,4 @@ hi LineNr          guifg=#8B9D93 guibg=#212530"c since it doesn't distinguish be
 hi NonText         guifg=#394354"c
 hi SpecialKey      guifg=#ABC9FF"c
 
-set background=dark
+"set background=dark"c ############ testing
