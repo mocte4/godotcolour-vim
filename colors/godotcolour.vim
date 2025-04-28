@@ -95,8 +95,8 @@ hi CursorLine                    guibg=#293739
 hi CursorLineNr    guifg=#FD971F               gui=none
 hi CursorColumn                  guibg=#293739
 hi ColorColumn                   guibg=#212530
-hi LineNr          guifg=#ABC9FF guibg=#212530"c
-hi NonText         guifg=#ABC9FF"c
+hi LineNr          guifg=#8B9D93 guibg=#212530"c since it doesn't distinguish between "safe" (statically typed) and unsafe lines I put the midpoint between those two colours
+hi NonText         guifg=#394354"c
 hi SpecialKey      guifg=#ABC9FF"c
 
 set background=dark
