@@ -52,4 +52,4 @@ end
 ```
 3. Restart Neovim
 4. `:PlugInstall`
-5. Restart Neovim again
+5. Rerestart Neovim
