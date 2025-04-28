@@ -1,8 +1,7 @@
 # godotcolour-vim
 Theme using the same colours as the GDScript editor in Godot Engine.
 
-**Trying to perfectly replicate highlighting. Any assistance with this is welcome.** 
-Designed to work with blink.cmp's interpretation of GDScript.
+**Trying to perfectly replicate highlighting.** Any assistance with this is welcome. 
 
 ## Screenshots
 
