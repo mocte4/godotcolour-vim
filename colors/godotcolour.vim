@@ -39,7 +39,7 @@ hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#FFB373"c
 hi SpecialKey      guifg=#42FFC2"c
 
-hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold ############ CHANGE THIS IT'S CURRENTLY ORANGE
+hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold"c ############ CHANGE THIS IT'S CURRENTLY ORANGE
 hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#ABC9FF"c
