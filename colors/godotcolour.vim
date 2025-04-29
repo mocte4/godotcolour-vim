@@ -32,7 +32,7 @@ hi Folded          guifg=#ABC9FF guibg=#000000"c
 hi Function        guifg=#57B3FF"c you're going to be using functions a lot more than declaring them so light blue takes the L
 hi Identifier      guifg=#BCE0FF"c
 hi Ignore          guifg=#808080 guibg=bg"c
-hi IncSearch       guifg=#C4BE89 guibg=#000000
+hi IncSearch       guifg=#000000 guibg=#FFFFFF
 
 hi Keyword         guifg=#FF7085               gui=bold"c Vimscript doesn't appear to distinguish between flow control keywords and regular ones like Godot does so no pink :(
 hi Label           guifg=#E6DB74               gui=none
