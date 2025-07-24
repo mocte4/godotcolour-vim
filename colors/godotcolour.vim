@@ -77,7 +77,7 @@ hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#8FFFDB"c
 hi Type            guifg=#8FFFDB               gui=none"c
-hi Underlined      guifg=#63C259
+hi Underlined      guifg=#63C259               gui=none"c
 
 hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
 hi VisualNOS                     guibg=#403D3D
